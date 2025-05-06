@@ -101,7 +101,7 @@ export class HashMap {
   }
 
   length() {
-    return this.#buckets;
+    return this.#size;
   }
 
   clear() {
